@@ -66,7 +66,7 @@ body {
 }
 
 p {
-  color: #818492;
+  color: #000000;
   line-height: 1.8em;
 }
 
@@ -1786,7 +1786,7 @@ img {
 
 @media (max-width: 1199px) {
   .couple-section .text-grid {
-    padding: 45px 40px 40px;
+    padding: 45px 0 40px;
   }
 }
 
@@ -3574,4 +3574,12 @@ img {
 
 .map-wrapper.active .map-overlay {
   display: none;
+}
+
+.custom-title {
+  margin-top: 24px !important;
+}
+
+.custom-text {
+  margin-top: 15px !important;
 }
