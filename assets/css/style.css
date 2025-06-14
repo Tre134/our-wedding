@@ -1748,6 +1748,7 @@ img {
   font-size: 3.375rem;
   line-height: 1em;
   padding-top: 15px;
+  color: #000000;
 }
 
 @media (max-width: 991px) {
