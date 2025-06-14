@@ -2048,6 +2048,7 @@ img {
   font-size: 14px;
   font-size: 0.875rem;
   margin-bottom: 15px;
+  color: #000000;
 }
 
 .wedding-location-section ul > li + li {
@@ -2363,7 +2364,6 @@ img {
 .rsvp-section p {
   font-size: 14px;
   font-size: 0.875rem;
-  font-style: italic;
   margin: 0;
 }
 
@@ -3577,7 +3577,7 @@ img {
 }
 
 .custom-title {
-  margin-top: 24px !important;
+  margin-top: 44px !important;
 }
 
 .custom-text {
