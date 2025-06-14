@@ -1724,6 +1724,7 @@ img {
 .wedding-date #clock > div > div {
   display: table-cell;
   vertical-align: middle;
+  color: #000000;
 }
 
 .wedding-date #clock > div + div {

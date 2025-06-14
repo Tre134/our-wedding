@@ -437,10 +437,10 @@
     if ($("#clock").length) {
         $('#clock').countdown('2025/9/13', function(event) {
             var $this = $(this).html(event.strftime(''
-            + '<div class="box"><div><div class="time">%D</div> <span>Days</span> </div></div>'
-            + '<div class="box"><div><div class="time">%H</div> <span>Hours</span> </div></div>'
-            + '<div class="box"><div><div class="time">%M</div> <span>Mins</span> </div></div>'
-            + '<div class="box"><div><div class="time">%S</div> <span>Secs</span> </div></div>'));
+            + '<div class="box"><div><div class="time">%D</div> <span>Дней</span> </div></div>'
+            + '<div class="box"><div><div class="time">%H</div> <span>Часов</span> </div></div>'
+            + '<div class="box"><div><div class="time">%M</div> <span>Минут</span> </div></div>'
+            + '<div class="box"><div><div class="time">%S</div> <span>Сеунд</span> </div></div>'));
         });
     }
 
