@@ -88,4 +88,17 @@
         };
     }
 
+    const mapWrapper = document.getElementById('mapWrapper');
+    const overlays = mapWrapper.querySelectorAll('.map-overlay');
+
+    overlays.forEach(overlay => {
+        overlay.addEventListener('click', () => {
+            mapWrapper.classList.add('active');
+        });
+    });
+
+    mapWrapper.addEventListener('mouseleave', () => {
+        mapWrapper.classList.remove('active');
+    });
+
 })();

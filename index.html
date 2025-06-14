@@ -159,15 +159,23 @@
                             <div class="img-holder">
                                 <img src="assets/images/restoran.webp" alt>
                             </div>
-                            <h3>Ресторан BAHNHOF</h3>
-                            <ul>
-                                <li><i class="ti-location-pin"></i> г. Волжский, ул. Мира 125б</li>
-                                <li><i class="ti-time"></i> Сентябрь 13, 2025 (14-00 - 21-00)</li>
-                            </ul>
-                            <p><b>Для гостей предусмотрен трансфер до ресторана и обратно</b></p>
+                            <div class="custom-block">
+                                <h3>Ресторан BAHNHOF</h3>
+                                <ul>
+                                    <li><i class="ti-location-pin"></i> г. Волжский, ул. Мира 125б</li>
+                                    <li><i class="ti-time"></i> Сентябрь 13, 2025 (14-00 - 21-00)</li>
+                                </ul>
+                                <p><b>Для гостей предусмотрен трансфер до ресторана и обратно</b></p>
+                            </div>
 
-                            <script type="text/javascript" charset="utf-8" async
-                                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A73f6c90131685c631e208078c771882c3a519f9e7886c36a8e44a067c254320b&amp;width=555&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+                            <div class="map-wrapper" id="mapWrapper">
+                                <div class="map-overlay left" id="leftMask"></div>
+                                <div class="map-overlay bottom" id="bottomMask"></div>
+
+                                <script type="text/javascript" charset="utf-8" async
+                                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A73f6c90131685c631e208078c771882c3a519f9e7886c36a8e44a067c254320b&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true">
+                                </script>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -203,7 +211,6 @@
     </footer>
 </div>
 
-================================================== -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 
