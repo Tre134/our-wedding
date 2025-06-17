@@ -1533,7 +1533,7 @@ img {
 --------------------------------------------------------------*/
 .footer-section {
   text-align: center;
-  padding: 24px 0;
+  padding: 50px 0;
 }
 
 @media (max-width: 767px) {
@@ -2005,7 +2005,6 @@ img {
 .wedding-location-section .location-grids .grid {
   width: calc(50% - 30px);
   float: left;
-  margin: 0 15px 100px;
 }
 
 @media (max-width: 650px) {
